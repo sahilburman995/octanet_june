@@ -1,0 +1,282 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#4158D0, #C850C0, #FFCC70);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  width: 100%;
+padding-right: 2rem;
+}
+.navbar img{
+
+  height: 4rem;
+  width: 5rem;
+}
+.header {
+
+  background-color: rgb(99, 151, 210);
+  width: 100vw;
+  
+
+
+}
+
+.sak {
+
+  display: flex;
+}
+
+.list {
+  display: inline;
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.uli {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d5bad;
+  justify-content: space-between;
+ padding-left: 55rem;
+}
+
+.uli img{
+
+  height: 4rem;
+  width: 6rem;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.vs {
+
+  width: 100%;
+  height: 80vh;
+  background-color: #e5e5f7;
+  opacity: 0.1;
+  background: linear-gradient(135deg, #6f000055 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #e4bfbf 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #00000055 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #000000 25%, #e5e5f7 25%) 0px 0/ 80px 80px;
+}
+
+.bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bubble {
+  position: absolute;
+  top: -100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  animation: bubbleAnimation 6s infinite linear;
+}
+
+@keyframes bubbleAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, -100vh);
+  }
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+}
+
+.creativebackground {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #c4a2ce, #9feaa8, #87caed, #FF0057);
+  background-size: 800% 800%;
+  animation: gradientAnimation 12s ease infinite;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+flex-direction: row;
+justify-content: space-around;
+
+
+
+}
+.creativebackground img {
+height: 20rem;
+mix-blend-mode: darken;
+
+
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.creative-background h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.creative-background p {
+  font-size: 1.5rem;
+}
+
+.vector-art {
+  width: 100vw;
+  height: 20vh;
+  background: linear-gradient(45deg, #d1afaf, #6cc1a3);
+  position: relative;
+}
+
+.vector-art:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #ffffff, transparent);
+  border-radius: 70%;
+}
+
+.vector-art:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border: 2px solid #5071c6;
+  border-radius: 70%;
+}
+
+.circle-background {
+  width: 100vw;
+  height: 50vh;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.outer {
+
+  width: 1000vw;
+}
+
+.sah {
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  display: flex;
+
+  background-color: #6cc1a3;
+}
+
+.sah img {
+  height: 15rem;
+  width: 15rem;
+  padding-right: 2rem;
+}
+
+.footer {
+
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.li1 {
+  padding-left: 4rem;
+  list-style: none;
+}
+
+.li2 {
+  color: white;
+  list-style: none
+}
+
+.inside {
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.cont {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  padding: 9rem;
+}
+.sa img{
+  height: 20rem;
+  width: 30rem;
+  border-radius: 20px;
+ 
+}
+.sa {
+
+  height: 60vh;
+  width: 100vw;
+ display: flex;
+  text-align: center;
+  padding-top: 20px;
+  justify-content: space-around;
+
+}
+.middle{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 222);
+  
+}
+.middle img{
+
+  mix-blend-mode: darken;
+  width: 100vw;
+  overflow: hidden;
+}

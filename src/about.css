@@ -1,0 +1,40 @@
+h1{
+
+    color: rgb(27, 53, 53);
+}
+.oody{
+
+    background-color: bisque;
+
+
+}
+.about-page {
+    width: 1200px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 40px;
+  }
+  
+  
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .artist-image {
+    width: 1260px;
+    height: 400px;
+    background-image: url('third.jpg');
+    background-size: contain;
+    background-position: center;
+  }
+  

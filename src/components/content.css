@@ -1,0 +1,83 @@
+.container{
+height: 100vh;
+   background-color: rgb(197, 227, 235);
+   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+}
+.item1{
+
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(114, 198, 234);
+    width: 20vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+padding: 2rem;
+margin-left: 2rem;
+ 
+}
+.item1 h1{
+font-size: 1rem;
+text-align: center;
+}
+.item2 h1{
+  font-size: 1rem;
+  text-align: center;
+  }
+  .item3 h1{
+    font-size: 1rem;
+    text-align: center;
+    }
+.item2{
+    height: 25rem;
+    background-color: rgb(238, 242, 244);
+    align-items:center;
+    justify-content: center;
+    width: 20vw;
+    box-shadow: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    padding-right: 6rem;
+}
+
+.item3{
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(130, 206, 236);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 2rem;
+margin-right: 2rem;
+
+}
+@media screen and (max-width:600px){
+  h1{
+    font-size:.8rem;
+  }
+  .container{
+
+   flex-direction: column;
+    
+  }
+  .item1{
+    width: 20rem;
+     height: 30rem;
+
+  overflow: hidden;
+  }
+ 
+  .item2{
+    width: 20rem;
+    
+ text-align: center;
+  }
+  .item3{
+    width: 20rem;
+
+    text-align: center;
+  }
+
+}
